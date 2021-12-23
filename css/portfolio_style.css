@@ -1,34 +1,37 @@
-/* Container */
 .container {
   height: 700px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
-
-/* HOME CONTAINER */
 .home_container {
   width: 90%;
   height: 90%;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
-
-/* Content Container*/
-
 .content_container {
   width: 90%;
   height: 90%;
   background-color: white;
   margin: auto;
 }
-
 #karl {
   margin-top: 10%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
 }
@@ -37,24 +40,21 @@
   float: left;
   height: 100%;
 }
-
 .content_display {
   width: 50%;
   float: right;
   height: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-top: 10%;
 }
-
 h4 {
   color: #888888;
 }
-
 p {
   font-size: 12px;
 }
-
-/* Button Contact Me*/
 .btnContactme {
   height: 50px;
   width: 150px;
@@ -64,13 +64,13 @@ p {
   background-color: white;
 }
 .btnContactme:hover {
+  -webkit-transition: 0.3s;
   transition: 0.3s;
   background-color: #922724;
   color: white;
 }
-
-/* NAVIGATION */
 .navbar_sticky {
+  position: -webkit-sticky;
   position: sticky;
   top: 15px;
   width: 80%;
@@ -83,7 +83,6 @@ ul {
   padding: 0;
   overflow: hidden;
 }
-
 .nav {
   float: right;
 }
@@ -95,7 +94,6 @@ ul {
   text-decoration: none;
   color: black;
 }
-
 li a {
   display: block;
   text-align: center;
@@ -103,8 +101,8 @@ li a {
   text-decoration: none;
   color: black;
 }
-
 li a:hover {
+  -webkit-transition: 0.3s;
   transition: 0.3s;
   background-color: #922724;
   color: white;

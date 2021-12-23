@@ -18,35 +18,50 @@
         </header>
     
         <section>
-            <div id="home">
+            <div id="home" class="home_element">
                 <div class="container">
                     <div class="home_container">
                         <div class="content_container">
-                            <div class="photo_display">
-                                <img src="./assests/img/karl.png" id="karl">
-                            </div>
-                            <div class="content_display">
-                                <h1>Hi, I am Karl</h1>
-                                <h4>Front End Developer</h4>
-                                <p>Mid level experience in web design and development knowledge producing quality work.</p>
-                                <button class="btnContactme" type="button">Contact me >></button>
+                            <div class="row" style="display: inline-flex;">
+                                <div class="col">
+                                    <img src="./assests/img/karl.png" class="karl_image">
+                                </div>
+                                <div class="col">
+                                    <h1>Hi, I am Karl</h1>
+                                    <h4>Front End Developer</h4>
+                                    <p>Mid level experience in web design and development knowledge producing quality work.</p>
+                                    <button class="btnContactme" type="button">Contact me >></button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="aboutme">
-                <div class="container">
+            </div><br><br>
+            <div id="aboutme" class="about_me">
+                <div class="container_fluid">
                     <div class="home_container">
                         <div class="content_container">
-                            <div class="photo_display">
-                                <img src="./assests/img/karl.png" id="karl">
-                            </div>
-                            <div class="content_display">
-                                <h1>Hi, I am Karl</h1>
-                                <h4>Front End Developer</h4>
-                                <p>Mid level experience in web design and development knowledge producing quality work.</p>
-                                <button class="btnContactme" type="button">Contact me >></button>
+                            <div class="row" style="display: inline-flex;">
+                                <div class="col-sm-6">
+                                    <h1>About me</h1>
+                                    <table class="about_table">
+                                        <tr>
+                                            <th>Sex: </th>
+                                            <td>Male</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Age: </th>
+                                            <td>21</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Birthdate: </th>
+                                            <td>March 9, 2000</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-sm-4">
+                                    <iframe class="location_map" style="height: 400px; width: 400px;" src="https://www.google.com/maps/embed?pb=!1m22!1m11!1m3!1d389.99810071519187!2d121.0732572191295!3d14.62553247861912!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x3397b712a4c1dbbf%3A0xa70203a4c0590b8a!2sNantisa%20Residence%2C%20%2371%20E%20Mapagkawanggawa%20st.%2C%20Escopa%203%20Project%204%2C%20Quezon%20City%2C%201800%2C%20Metro%20Manila!3m2!1d14.6255236!2d121.073247!5e1!3m2!1sen!2sph!4v1640234162303!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
                             </div>
                         </div>
                     </div>
