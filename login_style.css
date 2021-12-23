@@ -1,0 +1,14 @@
+.modal{
+    transition: 0.3s;
+}
+#btn_modal{
+    background-color: #e6d7c3 !important;
+    width: 100px;
+    height: 50px;
+}
+#btn_button{
+    background-color: #8d550f !important;
+    border: #8d550f;
+    width: 90px;
+    height: 40px;
+}
