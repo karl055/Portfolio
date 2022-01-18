@@ -1,4 +1,8 @@
 /* NAVIGATION */
+body {
+  padding: 0;
+  margin: 0;
+}
 .navbar_sticky {
   position: sticky;
   top: 15px;
@@ -72,7 +76,7 @@
           }
 
           p {
-            font-size: 12px;
+            font-size: 14px;
           }
 
           /* Button Contact Me*/
@@ -96,30 +100,22 @@
 }
 
 .about_me {
+  justify-items: center;
   .container {
     display: flex;
     justify-content: center;
 
     /* HOME CONTAINER */
-    .home_container {
+    .content_container {
       width: 90%;
       height: 90%;
       margin: auto;
       display: flex;
       justify-content: center;
-
-      .location_map {
-        float: right;
-        margin-top: 10%;
-        justify-content: center;
-      }
-      .about_details {
-        width: 50%;
-        float: right;
-        height: 100%;
-        justify-content: center;
-        margin-top: 10%;
-      }
     }
   }
+}
+.list_details,
+li {
+  font-size: 10rem;
 }
